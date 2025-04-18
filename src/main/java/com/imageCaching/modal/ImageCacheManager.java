@@ -16,7 +16,7 @@ public class ImageCacheManager {
 
     Map<Integer, List<Image>> map = new HashMap();
 
-
+    //retrieve images from the cache
     public void populateHash(List<Integer> list) {
 
         for(int i=list.get(0);i<list.size()-1;i++) {

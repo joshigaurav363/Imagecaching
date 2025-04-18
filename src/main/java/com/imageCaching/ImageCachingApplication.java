@@ -11,6 +11,7 @@ import java.nio.file.Paths;
 @SpringBootApplication
 public class ImageCachingApplication {
 
+	//main application
 	public static void main(String[] args) throws Exception {
 
 		SpringApplication.run(ImageCachingApplication.class, args);
@@ -24,8 +25,6 @@ public class ImageCachingApplication {
 			System.out.println("inside the loop");
 			//System.out.println(s); // 12 mins to read the and print the data
 		}
-
-
 	}
 
 //	@Bean
